@@ -19,6 +19,11 @@ console.log('averageTempMar', averageTempMar);
 console.log('averageTempApr', averageTempApr);
 console.log('averageTempMay', averageTempMay);
 
+for (let index = 0; index < averageTemp.length; index++)
+{
+    const element = averageTemp[index];
+    console.log(myArray[index])
+}
 console.log('averageTemp[0]', averageTemp[0]);
 console.log('averageTemp[1]', averageTemp[1]);
 console.log('averageTemp[2]', averageTemp[2]);
